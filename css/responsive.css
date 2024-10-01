@@ -417,15 +417,16 @@
     .mean-container .mean-bar::after {
         color: #fff;
         content: "";
-        background-image: url(../img/Logo.png);
+        background-image: url(/img/logo_v5.png);
         width: 70%;
         height: 100%;
         left: 20px;
         position: absolute;
-        top: 15px;
+        /* top: 15px; */
+        top: 0px;
         background-repeat: no-repeat;
         background-position: top left;
-        background-size: 100px 40px;
+        background-size: 100px 80px;
         z-index: -1;
     }
 
